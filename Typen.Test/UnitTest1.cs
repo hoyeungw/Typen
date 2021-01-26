@@ -1,4 +1,6 @@
+using System;
 using NUnit.Framework;
+using Spare.Deco;
 
 namespace Typen.Test {
   public enum Wings {
@@ -13,7 +15,11 @@ namespace Typen.Test {
     public void Setup() { }
 
     [Test]
-    public void Test1() {
+    public void EnumConvTest() {
+      Console.WriteLine(Factor<Wings>.IntValues.Deco());
+      Console.WriteLine(Factor<Wings>.Label(Wings.Right));
+      Console.WriteLine(Factor<Wings>.Label(Wings.Right));
+      Console.WriteLine("Right".ToEnum<Wings>());
       Assert.Pass();
     }
   }
