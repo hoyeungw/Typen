@@ -2,7 +2,7 @@
 
 namespace Typen {
   public static class Conv {
-    public static TO Cast<T, TO>(T some) {
+    public static TO Cast<T, TO>(this T some) {
       if (some is TO value) return value;
       try { return (TO) Convert.ChangeType(some, typeof(T)); }
       catch (InvalidCastException) { return default(TO); }

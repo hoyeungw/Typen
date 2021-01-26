@@ -10,7 +10,7 @@ namespace Typen.Test {
     Dual = 3,
   }
 
-  public class Tests {
+  public class FactorTests {
     [SetUp]
     public void Setup() { }
 
