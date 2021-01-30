@@ -8,10 +8,7 @@ namespace Typen {
       catch (InvalidCastException) { return default(TO); }
     }
 
-    public static string ToStr<T>(T some) {
-      if (some is string str) return str;
-      return some.ToString();
-    }
+    public static string ToStr<T>(T some) => some is string str ? str : some.ToString();
   }
   
   
