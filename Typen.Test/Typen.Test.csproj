@@ -4,7 +4,7 @@
         <IsPackable>false</IsPackable>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="Analys.Crostab" Version="0.0.12" />
+        <PackageReference Include="Analys.Crostab" Version="0.0.14" />
         <PackageReference Include="BenchmarkDotNet" Version="0.12.1" />
         <PackageReference Include="NUnit" Version="3.13.1" />
         <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
