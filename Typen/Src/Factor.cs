@@ -19,6 +19,7 @@ namespace Typen {
     public static Array Values => Enum.GetValues(typeof(TEnum));
     public static int[] IntValues => (int[]) Enum.GetValues(typeof(TEnum));
     public static string Label(TEnum item) => Enum.GetName(typeof(TEnum), item);
+    
   }
 
   public static class Factor {
