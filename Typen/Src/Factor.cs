@@ -25,7 +25,7 @@ namespace Typen {
   public static class Factor {
     public static string Label<TEnum>(TEnum item) => Enum.GetName(typeof(TEnum), item);
 
-    public static TEnum ToEnum<TEnum>(this string text) {
+    public static TEnum ParseEnum<TEnum>(this string text) {
       text = text.Replace(" ", "");
       // return Operator.Convert<dynamic, TEnum>(Enum.Parse(typeof(TEnum), text, true));
       return (TEnum) Enum.Parse(typeof(TEnum), text, true);
