@@ -9,7 +9,7 @@ namespace Typen {
   }
 
   public static class Enum {
-    public static string Label<TEnum>(TEnum item) => System.Enum.GetName(typeof(TEnum), item);
+    public static string Label<TEnum>(this TEnum item) => System.Enum.GetName(typeof(TEnum), item);
     public static TEnum ToEnum<TEnum>(this string text) => (TEnum) System.Enum.Parse(
       typeof(TEnum),
       text.Replace(" ", ""),
