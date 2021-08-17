@@ -16,9 +16,9 @@ namespace Typen.Test {
 
     [Test]
     public void EnumConvTest() {
-      Console.WriteLine(Factor<Wings>.IntValues.Deco());
-      Console.WriteLine(Factor<Wings>.Label(Wings.Right));
-      Console.WriteLine(Factor<Wings>.Label(Wings.Right));
+      Console.WriteLine(Enum<Wings>.IntValues.Deco());
+      Console.WriteLine(Enum<Wings>.Label(Wings.Right));
+      Console.WriteLine(Enum<Wings>.Label(Wings.Right));
       Console.WriteLine("Right".ToEnum<Wings>());
       Assert.Pass();
     }
