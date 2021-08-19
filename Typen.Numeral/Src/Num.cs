@@ -6,8 +6,8 @@ using System.Globalization;
 // The TryParse method converts a string in a specified style and culture-specific format to its double-precision floating point number equivalent.
 // The TryParse method does not generate an exception if the conversion fails. If the conversion passes, True is returned. If it does not, False is returned.
 
-namespace Typen.Numeral {
-  public static class Num {
+namespace Typen {
+  public static class Numeral {
     public static NumberFormatInfo Info = NumberFormatInfo.InvariantInfo;
     public static bool IsNumeric(this string t) => double.TryParse(t, NumberStyles.Any, Info, out _);
     public static bool IsNumeric<T>(this T o) {
@@ -27,7 +27,7 @@ namespace Typen.Numeral {
         case bool n: return n ? 1 : 0;
         case int n: return n;
         case long n: return n;
-        case decimal n: return (double) n;
+        case decimal n: return (double)n;
         case float n: return n;
         case byte n: return n;
         // case sbyte n: return n;

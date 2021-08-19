@@ -1,12 +1,12 @@
 using System;
 using NUnit.Framework;
-using Spare.Logger;
+using Spare;
 
 namespace Typen.Test {
   public static class ConvExt {
     public static TO Cast<T, TO>(this T some) {
       if (some is TO value) return value;
-      return (TO) Convert.ChangeType(some, typeof(TO));
+      return (TO)Convert.ChangeType(some, typeof(TO));
       // try {  }
       // catch (InvalidCastException) { return default(TO); }
     }
@@ -28,7 +28,7 @@ namespace Typen.Test {
         // (double) Convert.ChangeType(x, typeof(T))
         x.Cast<object, double>().ToString().Logger();
       }
-      (Conv.ToStr((object) null) ?? "null").Logger();
+      (Conv.ToStr((object)null) ?? "null").Logger();
       // default(string).Logger();
     }
   }

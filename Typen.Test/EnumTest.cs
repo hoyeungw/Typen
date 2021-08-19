@@ -1,6 +1,6 @@
 using System;
 using NUnit.Framework;
-using Spare.Deco;
+using Spare;
 
 namespace Typen.Test {
   public enum Wings2 {
