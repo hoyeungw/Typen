@@ -7,12 +7,14 @@
     &lt;TestId&gt;NUnit3x::652AAEF8-C2CE-41DA-AD5A-DC8DB15CD5A4::.NETFramework,Version=v4.7.2::Typen.Test.ConvTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::652AAEF8-C2CE-41DA-AD5A-DC8DB15CD5A4::.NETFramework,Version=v4.7.2::Typen.Test.FactorTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::652AAEF8-C2CE-41DA-AD5A-DC8DB15CD5A4::.NETFramework,Version=v4.7.2::Typen.Test.EnumTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::652AAEF8-C2CE-41DA-AD5A-DC8DB15CD5A4::.NETFramework,Version=v4.7.2::Typen.Test.CastNumTest.CastNumTestAlpha&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=af8614a6_002D303b_002D496f_002D8d1e_002Dd93bb7dbdab5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ConvTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::652AAEF8-C2CE-41DA-AD5A-DC8DB15CD5A4::.NETFramework,Version=v4.7.2::Typen.Test.ConvTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::652AAEF8-C2CE-41DA-AD5A-DC8DB15CD5A4::.NETFramework,Version=v4.7.2::Typen.Test.FactorTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::652AAEF8-C2CE-41DA-AD5A-DC8DB15CD5A4::.NETFramework,Version=v4.7.2::Typen.Test.CastNumTest.CastNumTestAlpha&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	</wpf:ResourceDictionary>
