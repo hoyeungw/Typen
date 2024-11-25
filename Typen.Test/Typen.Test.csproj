@@ -1,19 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
-    <PropertyGroup>
-        <TargetFramework>net472</TargetFramework>
-        <IsPackable>false</IsPackable>
-    </PropertyGroup>
-    <ItemGroup>
-        <PackageReference Include="Analys.Crostab" Version="0.1.9" />
-        <PackageReference Include="BenchmarkDotNet" Version="0.13.1" />
-        <PackageReference Include="NUnit" Version="3.13.2" />
-        <PackageReference Include="NUnit3TestAdapter" Version="4.0.0" />
-        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
-        <PackageReference Include="Spare" Version="0.1.13" />
-        <PackageReference Include="Spare.Logger" Version="0.1.13" />
-    </ItemGroup>
-    <ItemGroup>
-      <ProjectReference Include="..\Typen.Enum\Typen.Enum.csproj" />
-      <ProjectReference Include="..\Typen\Typen.csproj" />
-    </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Analys.Crostab" Version="0.1.9"/>
+    <PackageReference Include="BenchmarkDotNet" Version="0.13.1"/>
+    <PackageReference Include="NUnit" Version="3.13.2"/>
+    <PackageReference Include="NUnit3TestAdapter" Version="4.0.0"/>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0"/>
+    <PackageReference Include="Spare" Version="0.1.13"/>
+    <PackageReference Include="Spare.Logger" Version="0.1.13"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Typen\Typen.csproj"/>
+  </ItemGroup>
 </Project>

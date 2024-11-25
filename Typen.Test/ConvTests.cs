@@ -20,13 +20,25 @@ namespace Typen.Test {
     [Test]
     public void Test() {
       var candidates = new object[] {
-        1,
-        2,
-        3,
-      };
+                                      Math.PI,
+                                      Math.E,
+                                      true,
+                                      false,
+                                      "SOE",
+                                      "",
+                                      string.Empty,
+                                      0xFF,
+                                      double.NaN,
+                                      DateTime.Now,
+                                      null
+                                    };
+      var i = 0;
       foreach (var x in candidates) {
-        // (double) Convert.ChangeType(x, typeof(T))
-        x.Cast<object, double>().ToString().Logger();
+        var result = Conv.To<string>(x);
+        Console.WriteLine($"[{i}] {result}");
+        // try { Console.WriteLine($"[{i}] {Conv.To<string>(x)}"); }
+        // catch (Exception e) { Console.WriteLine($"Error [{i}] [{e.HResult}] {e.Message}"); }
+        i++;
       }
       (Conv.ToStr((object)null) ?? "null").Logger();
       // default(string).Logger();

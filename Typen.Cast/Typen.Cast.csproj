@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageVersion>0.1.2</PackageVersion>
-    <Title>Typen.Numeral</Title>
-    <Description>Numeral types checker and converter</Description>
+    <Title>Typen.Cast</Title>
+    <Description>Casting among generic types</Description>
     <Authors>Hoyeung Wong</Authors>
     <Company>Hoyeung Wong</Company>
     <Copyright>Copyright (c) Hoyeung Wong 2020-present</Copyright>

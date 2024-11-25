@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Typen.Numeral", "Typen.Nume
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Typen.Enum", "Typen.Enum\Typen.Enum.csproj", "{FAD4C5DB-9D23-47A3-A871-02D5B9D54C53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Typen.Cast", "Typen.Cast\Typen.Cast.csproj", "{7F322F1F-77BB-40EA-8444-E990AF621AAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{FAD4C5DB-9D23-47A3-A871-02D5B9D54C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAD4C5DB-9D23-47A3-A871-02D5B9D54C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAD4C5DB-9D23-47A3-A871-02D5B9D54C53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F322F1F-77BB-40EA-8444-E990AF621AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F322F1F-77BB-40EA-8444-E990AF621AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F322F1F-77BB-40EA-8444-E990AF621AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F322F1F-77BB-40EA-8444-E990AF621AAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
